@@ -15,35 +15,40 @@ const favourites = {
 // destructuring
 
 // single level destructuring
-const { personal_info, address } = information;
+// const { personal_info, address } = information;
 
-console.log(personal_info);
-console.log(address);
+// console.log(personal_info);
+// console.log(address);
 
 
 // multi-level destructuring
 const { personal_info: { firstName, age, occupation } } = information;
 
-console.log(firstName);
-console.log(age);
-console.log(occupation);
+// console.log(personal_info);
+// console.log(firstName);
+// console.log(age);
+// console.log(occupation);
 
 // destructuring the favourites object
 const { books } = favourites;
 
+// console.log(books);
+
 const { books: [a, b, ...c] } = favourites;
 
-console.log(books);
-console.log(a);
+// console.log(books);
+// console.log(c);
 
 const thingsILikeToDo = [
   { game: 'Squid Game' },
   { food: ['peproni pizza', 'beer', 'KFC chicken'] }
 ]
 
-const [ w, { food: [x, y, z] } ] = thingsILikeToDo;
+const [ w, { food } ] = thingsILikeToDo;
 
-console.log(z);
+console.log(food[2]);
+
+// console.log(z);
 
 const [ i, { food: [j, ...k] } ] = thingsILikeToDo;
 

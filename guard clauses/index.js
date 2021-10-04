@@ -28,11 +28,11 @@ function fizzbuzz(i) {
   }
 }
 
-console.log('The first function begins here...');
+// console.log('The first function begins here...');
 
-for(let i = 0; i <= 15; i++) {
-  console.log(fizzbuzz(i));
-}
+// for(let i = 0; i <= 15; i++) {
+//   console.log(fizzbuzz(i));
+// }
 
 
 // using guard clauses is a better way.

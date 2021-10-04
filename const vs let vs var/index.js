@@ -5,29 +5,36 @@ const PAY_RATE = 0.6;
 const KSHS_TO_USD = 110;
 const TAX = 0.3; //equivalent to 30%
 
+// console.log(PAY_RATE);
+
 // now let us see where let is applicable
-let age = 10;
-let nth_day_of_coding = 20;
+let age = 11;
+let nth_day_of_coding = 21;
+
+// console.log(age);
+
 
 // var is not a good variable declaration to use reason being it is globally scoped
 // I'll explain this in a few minutes
 
 
 // now let us look at some cool things.
-const ages_of_people = [56, 10, 86, 30, 27];
+let ages_of_people = [56, 10, 86, 30, 27];
 
 // DO THE EXPLANATION HERE...
 ages_of_people[2] = 37;
 
-console.log(ages_of_people);
+// console.log(ages_of_people);
 
 // DO MORE EXPLANATION HERE...
-// ages_of_people = 21;
+ages_of_people = 21;
+
+// console.log(ages_of_people);
 
 const people_info = {
   personal_info: {
     name: 'John Doe',
-    age: '30',
+    age: 30,
     occupation: 'programmer',
     companies_worked: ['Google', 'theJitu', 'THH-LLC', 'Griffin solutions group']
   },
@@ -37,7 +44,7 @@ const people_info = {
 // DO THE EXPLANATION HERE...
 people_info.personal_info.age = 31;
 
-console.log(people_info);
+// console.log(people_info);
 
 
 

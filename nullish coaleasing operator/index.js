@@ -5,11 +5,11 @@
 */
 
 const foo = null ?? 'default string';
-console.log(foo);
+// console.log(foo);
 // expected output: "default string"
 
 const baz = 0 ?? 42;
-console.log(baz);
+// console.log(baz);
 // expected output: 0
 
 

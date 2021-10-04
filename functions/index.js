@@ -1,16 +1,18 @@
 // ES5 functions
 function funcName() {
+  // logic here.
   console.log('Hello world');
 }
 
-funcName();
+// funcName();
 
 // ES6 functions
 const funcNameOne = () => {
+  // logic here...
   console.log('Hello world');
 }
 
-funcNameOne();
+// funcNameOne();
 
 // good hack down here...
 
@@ -23,7 +25,7 @@ funcNameOne();
 // example
 const addTwoNumbers = (a, b) => a + b;
 
-console.log(addTwoNumbers(10, 5));
+// console.log(addTwoNumbers(10, 5));
 
 /*
 * If your function has one parameter
@@ -35,3 +37,14 @@ console.log(addTwoNumbers(10, 5));
 const getAge = age => `Your age is ${age}`;
 
 console.log(getAge(10));
+
+
+
+
+// function dest({ x }) {
+//   console.log(x);
+// }
+
+// const dest1 = ({ x }) => {
+//   console.log(x)
+// }
